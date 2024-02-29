@@ -8,7 +8,7 @@ class PagarActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pagar)
-        setSupportActionBar(findViewById(R.id.toobar2))
+        setSupportActionBar(findViewById(R.id.toolbar3))
 
         val saldo = intent.getStringExtra("sSaldo")
         val txtSaldo = findViewById<TextView>(R.id.txtsaldo1)

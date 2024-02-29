@@ -13,5 +13,7 @@ class TransferirActivity : AppCompatActivity() {
         val saldo = intent.getStringExtra("sSaldo")
         val txtSaldo = findViewById<TextView>(R.id.txtsaldo2)
         txtSaldo.setText(saldo.toString())
+
+
     }
 }
